@@ -39,7 +39,7 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-header {
+.main-header {
 border-bottom: 1px solid #e7e9fc;
 }
 
@@ -79,7 +79,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-list,
-.adress-list{
+.address-list{
 display: flex;
 gap: 40px;
 list-style: none;
