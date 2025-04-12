@@ -81,10 +81,10 @@ display: flex;
 gap: 40px;
 list-style: none;
 align-items: center;
-padding: 24px 0;
 }
 
 .nav-link {
+display: flex;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -92,6 +92,7 @@ padding: 24px 0;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -130,13 +131,10 @@ font-style: normal;
   text-decoration: none;
 }
 
-.container-main{
-
-}
-
 .welcome-page {
   background-color: #2e2f42;
-    text-align: center
+    text-align: center;
+    padding:188px 0;
 }
 
 .slogan-text {
@@ -147,8 +145,7 @@ font-style: normal;
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-  padding-top: 68px;
-  padding-bottom: 48px;
+
 }
 
 .order-button {
@@ -162,12 +159,13 @@ font-style: normal;
 gap: 10px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);;
-width: 169px;
 height: 56px;
 display: block;
 cursor: pointer;
 margin: 0 auto;
-margin-bottom: 68px;
+margin-top: 68px;
+min-width: 169px;
+border: none;
 }
 
 .order-button:hover,
@@ -211,7 +209,7 @@ flex-basis: 264px;
   margin-bottom: 8px;
 }
 
-.serv-decr {
+.serv-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
