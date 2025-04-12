@@ -23,8 +23,10 @@ ul {
 img {
   display: block;
 }
+
 .container {
-max-width: 1440px;
+/*max-width: 1440px;*/
+width:1158px;
 padding-left: 156px;
 padding-right: 156px;
 margin-left: auto;
@@ -36,7 +38,7 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.header {
+header {
 border-bottom: 1px solid #e7e9fc;
 }
 
