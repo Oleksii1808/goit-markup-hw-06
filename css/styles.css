@@ -23,7 +23,6 @@ ul {
 img {
   display: block;
 }
-
 .container {
 max-width: 1440px;
 padding-left: 156px;
@@ -37,6 +36,10 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
+.header {
+border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -48,6 +51,7 @@ padding-bottom: 120px;
 .navigation {
     display: flex;
     align-items: center;
+    justify-content:flex-start;
 }
 .logo {
   text-decoration: none;
