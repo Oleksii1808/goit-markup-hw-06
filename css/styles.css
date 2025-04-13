@@ -35,14 +35,13 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.header-main {
-border-bottom: 1px solid #e7e9fc;
-}
+
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
@@ -175,8 +174,7 @@ border: none;
   color: #fff;
 }
 
-.visually-hidden 
-{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -195,11 +193,11 @@ justify-content: flex-start;
 gap: 24px;
 }
 
-.serv-item {
+.services-item {
 flex-basis: 264px;
 }
 
-.serv-heading {
+.services-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -208,7 +206,7 @@ flex-basis: 264px;
   margin-bottom: 8px;
 }
 
-.serv-descr {
+.services-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
