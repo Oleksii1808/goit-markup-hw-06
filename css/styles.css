@@ -25,9 +25,6 @@ img {
 }
 
 .container {
-/*max-width: 1440px;
-padding-left: 156px;
-padding-right: 156px;*/
 width:1158px;
 padding: 0 15px;
 margin: 0 auto;
@@ -332,9 +329,12 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
 
+.logo-footer {
+display: inline-block;
+margin-bottom: 16px;
+}
 .logo-studio-white {
 color: #f4f4fd;;
 }
