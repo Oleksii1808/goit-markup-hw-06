@@ -178,15 +178,17 @@ border: none;
   color: #fff;
 }
 
-.services {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+.visually-hidden 
+{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
-
 
 .services-list {
 display: flex;
@@ -249,11 +251,10 @@ height: 380px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.employees-img {
-margin-bottom: 32px;
+.name-position-container {
+padding: 32px 0;
 
 }
-
 .employees-name {
 font-weight: 500;
 font-size: 20px;
