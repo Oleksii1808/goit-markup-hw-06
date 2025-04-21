@@ -245,6 +245,8 @@ section {
   background: #f4f4fd;
   padding: 24px 100px;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 .services-heading {
@@ -254,7 +256,6 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 .services-description {
