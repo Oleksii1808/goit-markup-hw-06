@@ -303,7 +303,6 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
   margin-top: 32px;
 }
 
@@ -315,6 +314,7 @@ section {
   text-align: center;
   color: #434455;
   margin-bottom: 8px;
+  padding: 32px 0;
 }
 
 .social-list {
