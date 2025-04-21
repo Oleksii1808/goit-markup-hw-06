@@ -345,14 +345,12 @@ section {
   justify-content: center;
 }
 
-.social-icon {
-  --color2: #4d5ae5;
+.social-link:hover, 
+.social-link:focus{
+  background-color: #404bbf;
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-icon:hover,
-.social-icon:focus {
-  --color2: #404bbf;
-}
+
 
 .portfolio-list {
   display: flex;
