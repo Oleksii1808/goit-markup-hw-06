@@ -523,7 +523,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .social-link-footer:hover,
-.social-link:focus {
+.social-link-footer:focus {
   background-color: #31d0aa;
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
