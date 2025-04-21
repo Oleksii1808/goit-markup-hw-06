@@ -342,6 +342,7 @@ section {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
@@ -351,7 +352,6 @@ section {
 .social-link:hover, 
 .social-link:focus{
   background-color: #404bbf;
-  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -533,5 +533,4 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #31d0aa;
-  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
