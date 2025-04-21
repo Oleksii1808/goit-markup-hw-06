@@ -87,6 +87,7 @@ section {
 
 .navigation-link.active-item {
   color: #404bbf;
+  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active-item::after {
@@ -99,7 +100,8 @@ section {
   height: 4px;
   background-color: #404bbf;
   overflow: visible;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  bottom: -1px;
+
 }
 
 .navigation-link {
@@ -155,7 +157,6 @@ section {
   max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
-      to top,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -195,6 +196,7 @@ section {
   margin-top: 68px;
   min-width: 169px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
