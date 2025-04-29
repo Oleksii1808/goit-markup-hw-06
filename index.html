@@ -445,9 +445,18 @@
         </div>
 
         <div class="container-checkbox">
-        <input class="form-input-checkbox" type="checkbox" name="policy" id="policy" />
-        <label class="form-label-checkbox" for="policy">I accept the terms and conditions of the <span class="checkbox-accent">Privacy
-            Policy</span></label>
+        <input class="form-input-checkbox visually-hidden" type="checkbox" name="policy" id="policy" />
+        <label class="form-label-checkbox" for="policy">
+          <span class="icon-check-checkbox">
+          <svg class="icon-check" width="10" height="8">
+            <use href="./images/icons.svg#icon-check"></use>
+          </svg>
+          </span>
+          <span class="policy-text">I accept the terms and conditions of the
+            <span class="checkbox-accent">
+              <a class="policy-link" href="#">Privacy
+            Policy</a></span>
+          </label>
     </div>
     <button class="submit-form-button" type="submit">Send
     </button>
