@@ -423,41 +423,53 @@
 
   <div class="modal-overlay is-open">
     <div class="modal">
-        <button class="button-close-modal" type="button">
+    <button class="button-close-modal" type="button">
           <svg class="icon-close-cross" width="8" height="8">
             <use href="./images/icons.svg#icon-close-cross"></use>
           </svg>
-        </button>
-        <p class="form-dscr">Leave your contacts and we will call you back</p>
-<form>
-       <label class="form-label" for="user_name">Name</label>
-        <div class="input-container">
-          <input class="form-input" type="text" name="user_name" id="user_name" />
-          <svg class="icon-label-form" width="12" height="12">
-            <use href="./images/icons.svg#icon-user-name"></use>
-          </svg>
+    </button>
+    <p class="form-dscr">Leave your contacts and we will call you back
+    </p>
+    <form>
+<div class="label-and-input-container">
+
+         <label class="form-label" for="user_name">Name</label>
+          <div class="input-container-and-svg">
+            <input class="form-input" type="text" name="user_name" id="user_name" />
+            <svg class="icon-label-form" width="12" height="12">
+              <use href="./images/icons.svg#icon-user-name"></use>
+            </svg>
+          </div>
         </div>
+
+<div class="label-and-input-container">  
 
         <label class="form-label" for="phone">Phone</label>
-        <div class="input-container">
-          <input class="form-input" type="tel" name="phone" id="phone" />
-         <svg class="icon-label-form" width="13" height="13">
-          <use href="./images/icons.svg#icon-user-phone"></use>
-          </svg>
-        </div>
+          <div class="input-container-and-svg">
+            <input class="form-input" type="tel" name="phone" id="phone" />
+                     <svg class="icon-label-form" width="13" height="13">
+            <use href="./images/icons.svg#icon-user-phone"></use>
+            </svg>
+          </div>
+</div>
+<div class="label-and-input-container">
 
         <label class="form-label" for="user_email">Email</label>
-        <div class="input-container">
-          <input class="form-input" type="email" name="user_email" id="user_email" />
-        <svg class="icon-label-form" width="15" height="12">
-          <use href="./images/icons.svg#icon-user-email"></use>
-          </svg>
-        </div>
+          <div class="input-container-and-svg">
+            <input class="form-input" type="email" name="user_email" id="user_email" />
+                    <svg class="icon-label-form" width="15" height="12">
+            <use href="./images/icons.svg#icon-user-email"></use>
+            </svg>
+          </div>
 
+</div>
+<div class="label-and-input-container">
+  
         <label class="form-label" for="comment">Comment</label>
         <div class="textarea-container">
           <textarea class="form-textarea" name="comment" id="comment" placeholder="Text input"></textarea>
         </div>
+</div>
 
         <div class="container-checkbox">
         <input class="form-input-checkbox visually-hidden" type="checkbox" name="policy" id="policy" />

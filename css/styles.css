@@ -686,7 +686,8 @@ margin-bottom: 4px;
 margin-top: 8px;
 }
 
-.input-container {
+
+.label-and-input-container {
 display: flex;
 flex-direction: column;
 size: 100%;
