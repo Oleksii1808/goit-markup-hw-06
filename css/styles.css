@@ -1190,6 +1190,7 @@ color: #8e8f99;
 }
 
 .icon-check-checkbox {
+  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -1202,6 +1203,7 @@ color: #8e8f99;
   margin-right: 8px;
   flex-shrink: 0;
 }
+
 
 .form-input-checkbox:checked ~ .form-label-checkbox .icon-check-checkbox { 
   fill: #f4f4fd; 
@@ -1247,6 +1249,7 @@ background-color: #404bbf;
 /*Start modal burger menu*/
 
 .modal-overlay-burger-menu{
+opacity: 0;
 display: flex;
 width: 100%;
 height: 100%;
