@@ -42,8 +42,22 @@ h2 {
 
 .container {
   margin: 0 auto;
-  max-width: 1158px;
-  padding: 0 15px;
+  max-width: 320px;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 img {
@@ -53,7 +67,13 @@ img {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
+}
+
+@media screen and (min-width: 1158px) {
+  section {
+    padding: 120px 0;
+  }
 }
 
 .sr-only {

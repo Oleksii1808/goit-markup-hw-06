@@ -1,36 +1,113 @@
-.container {
+.visually-hidden {
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.features-list {
-    display: flex;
-    flex-wrap: nowrap;
+.services-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 72px 0;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .services-list {
+    /*max-width*/
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
+    gap: 72px 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .services-list {
+    /*max-width*/
     gap: 24px;
+  }
 }
 
-.features-list-item {
-    width: calc((100% - 72px) / 4);
+.services-item {
+  max-width: 288px;
 }
 
-.features-icon-container {
+@media screen and (min-width: 768px) {
+  .services-item {
+    max-width: 355px;
+  }
+}
+
+@media screen and (min-width: 1156px) {
+  .services-item {
+    max-width: 264px;
+  }
+}
+
+.icon-box {
+  display: none;
+}
+
+@media screen and (min-width: 1158px) {
+  .icon-box {
     display: flex;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    max-width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    padding: 24px 100px;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 112px;
-border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background-color: #f4f4fd;
     margin-bottom: 8px;
+  }
 }
 
-.features-item-headline {
+.services-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .services-heading {
+    line-height: 1.2;
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .services-heading {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
+  }
 }
 
-.features-description {}
+.services-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+  .services-description {
+    font-weight: 400;
+  }
+}
