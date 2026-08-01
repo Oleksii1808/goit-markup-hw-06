@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <header class="header-main">
+    <header id="header" class="header-main">
       <div class="container header-container">
         <nav class="navigation">
           <a href="./index.html" class="logo"
@@ -61,14 +61,14 @@
     </header>
 
     <main>
-      <section class="welcome-page">
+      <section id="hero" class="welcome-page">
         <div class="container">
           <h1 class="slogan-text">Effective Solutions for Your Business</h1>
           <button type="button" class="order-button">Order Service</button>
         </div>
       </section>
 
-      <section class="services-section">
+      <section id="features" class="services-section">
         <div class="container">
           <h2 class="visually-hidden">Our Services</h2>
           <ul class="services-list">
@@ -124,7 +124,7 @@
         </div>
       </section>
 
-      <section class="employees">
+      <section id="team" class="employees">
         <div class="container">
           <h2 class="section-heading">Our Team</h2>
           <ul class="employees-list">
@@ -134,7 +134,7 @@
                   ./images/team-member-first.jpg 1x,
                   ./images/team-member-first.jpg 2x
                 "
-                src="team-member-first.jpg"
+                src="./images/team-member-first.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -181,7 +181,7 @@
                   ./images/team-member-second.jpg 1x,
                   ./images/team-member-second.jpg 2x
                 "
-                src="team-member-second.jpg"
+                src="./images/team-member-second.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -228,7 +228,7 @@
                   ./images/team-member-third.jpg 1x,
                   ./images/team-member-third.jpg 2x
                 "
-                src="team-member-third.jpg"
+                src="./images/team-member-third.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -275,7 +275,7 @@
                   ./images/team-member-fourth.jpg 1x,
                   ./images/team-member-fourth.jpg 2x
                 "
-                src="team-member-fiurth.jpg"
+                src="./images/team-member-fourth.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -320,7 +320,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section id="portfolio" class="portfolio">
         <div class="container">
           <h2 class="section-heading">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -353,7 +353,7 @@
                     class="services-img"
                     src="./images/portfolio-image-banking-mobile.jpg"
                     srcset="
-                      ./portfolio-image-banking-mobile.jpg           1x,
+                      ./images/portfolio-image-banking-mobile.jpg    1x,
                       ./images/portfolio-image-banking-mobile@2x.jpg 2x
                     "
                     alt="banking-app"
@@ -399,7 +399,7 @@
                     class="services-img"
                     src="./images/portfolio-image-payment-mobile.jpg"
                     srcset="
-                      ./portfolio-image-payment-mobile.jpg           1x,
+                      ./images/portfolio-image-payment-mobile.jpg    1x,
                       ./images/portfolio-image-payment-mobile@2x.jpg 2x
                     "
                     alt="chashless-payment"
@@ -445,7 +445,7 @@
                     class="services-img"
                     src="./images/portfolio-image-meditation-mobile.jpg"
                     srcset="
-                      ./portfolio-image-meditation-mobile.jpg           1x,
+                      ./images/portfolio-image-meditation-mobile.jpg    1x,
                       ./images/portfolio-image-meditation-mobile@2x.jpg 2x
                     "
                     alt="meditation-app"
@@ -491,7 +491,7 @@
                     class="services-img"
                     src="./images/portfolio-image-taxi-mobile.jpg"
                     srcset="
-                      ./portfolio-image-taxi-mobile.jpg           1x,
+                      ./images/portfolio-image-taxi-mobile.jpg    1x,
                       ./images/portfolio-image-taxi-mobile@2x.jpg 2x
                     "
                     alt="taxi"
@@ -537,7 +537,7 @@
                     class="services-img"
                     src="./images/portfolio-image-ilustrations-mobile.jpg"
                     srcset="
-                      ./portfolio-image-ilustrations-mobile.jpg           1x,
+                      ./images/portfolio-image-ilustrations-mobile.jpg    1x,
                       ./images/portfolio-image-ilustrations-mobile@2x.jpg 2x
                     "
                     alt="ilustrations"
@@ -583,7 +583,7 @@
                     class="services-img"
                     src="./images/portfolio-image-courses-mobile.jpg"
                     srcset="
-                      ./portfolio-image-courses-mobile.jpg           1x,
+                      ./images/portfolio-image-courses-mobile.jpg    1x,
                       ./images/portfolio-image-courses-mobile@2x.jpg 2x
                     "
                     alt="courses"
@@ -605,7 +605,7 @@
       </section>
     </main>
 
-    <footer class="company-info-down footer-container">
+    <footer id="footer" class="company-info-down footer-container">
       <div class="container footer-flex-general">
         <div class="footer-logo-paragraph">
           <a href="./index.html" class="logo logo-footer"
@@ -675,7 +675,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div id="modal" class="modal-overlay is-open">
       <div class="modal">
         <button class="button-close-modal" type="button">
           <svg class="icon-close-cross" width="8" height="8">
@@ -762,7 +762,7 @@
       </div>
     </div>
 
-    <div class="modal-overlay-burger-menu">
+    <div id="mobile-menu" class="modal-overlay-burger-menu">
       <div class="modal-burger-menu">
         <button class="button-close-burger-menu" type="button">
           <svg class="icon-close-cross-burger" width="8" height="8">
