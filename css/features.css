@@ -16,25 +16,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  gap: 72px 0;
+  gap: 72px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .services-list {
-    /*max-width*/
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-start;
+    justify-content: center;
     gap: 72px 24px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .services-list {
-    /*max-width*/
     gap: 24px;
   }
 }
@@ -49,7 +46,7 @@
   }
 }
 
-@media screen and (min-width: 1156px) {
+@media screen and (min-width: 1158px) {
   .services-item {
     max-width: 264px;
   }
@@ -62,32 +59,30 @@
 @media screen and (min-width: 1158px) {
   .icon-box {
     display: flex;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    max-width: 264px;
-    height: 112px;
-    background: #f4f4fd;
-    padding: 24px 100px;
     align-items: center;
     justify-content: center;
+    max-width: 264px;
+    height: 112px;
     margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
   }
 }
 
 .services-heading {
+  margin-bottom: 8px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
   .services-heading {
-    line-height: 1.2;
-    text-align: start;
+    text-align: left;
   }
 }
 
@@ -95,18 +90,19 @@
   .services-heading {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
   }
 }
 
 .services-description {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1158px) {
   .services-description {
     font-weight: 400;
   }

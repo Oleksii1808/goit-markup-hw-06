@@ -11,15 +11,11 @@
   justify-content: space-between;
   align-items: center;
   max-width: 320px;
-  padding-bottom: 16px;
-  padding-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .header-container {
     max-width: 768px;
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 }
 
@@ -38,6 +34,9 @@
 }
 
 .logo {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -51,6 +50,8 @@
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 120px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
@@ -161,8 +162,14 @@
 }
 
 .address {
-  display: flex;
+  display: none;
   font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .address {
+    display: block;
+  }
 }
 
 .contact-info {
@@ -179,18 +186,14 @@
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .contact-info {
     font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
   }
 }
 
 .contact-info:hover,
 .contact-info:focus {
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
-  text-decoration: none;
 }
 
 .burger-menu-button {

@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fff;
+  background-color: #ffffff;
 
   font-size: 16px;
   line-height: 1.5;
@@ -35,15 +35,17 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  letter-spacing: 0.02em;
 }
 
 .container {
-  margin: 0 auto;
+  width: 100%;
   max-width: 320px;
-  padding: 0 16px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -67,26 +69,38 @@ img {
 }
 
 .section {
-  padding: 96px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
-@media screen and (min-width: 1158px) {
-  section {
-    padding: 120px 0;
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 }
 
-.sr-only {
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.sr-only,
+.visually-hidden {
   position: absolute;
-  white-space: nowrap;
   width: 1px;
   height: 1px;
-  overflow: hidden;
-  border: 0;
+  margin: -1px;
   padding: 0;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  border: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
-  margin: -1px;
 }
 
 fieldset {
