@@ -17,7 +17,6 @@
   flex-direction: column;
   align-items: center;
   gap: 72px;
-  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -25,30 +24,32 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
     gap: 72px 24px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .services-list {
+    flex-wrap: nowrap;
     gap: 24px;
   }
 }
 
 .services-item {
+  width: 100%;
   max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .services-item {
-    max-width: 355px;
+    width: calc((100% - 24px) / 2);
+    max-width: none;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .services-item {
-    max-width: 264px;
+    width: calc((100% - 72px) / 4);
   }
 }
 

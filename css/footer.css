@@ -15,29 +15,26 @@
   align-items: center;
 }
 
-/* Планшет: делаем контент footer визуально уже стандартного container */
 @media screen and (min-width: 768px) {
   .footer-flex-general {
     max-width: 584px;
+    margin: 0 auto;
     padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .footer-flex-general {
     max-width: 1158px;
+    margin: 0 auto;
+    padding: 0;
     flex-wrap: nowrap;
     align-items: baseline;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
-
-/* Первый блок footer */
 
 .footer-logo-paragraph {
   display: flex;
@@ -84,8 +81,6 @@
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
-/* Социальные сети */
 
 .social-list-container {
   display: flex;
@@ -145,26 +140,21 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-footer {
-  fill: #f4f4fd;
-}
-
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
 
-/* Подписка */
+.social-icon-footer {
+  fill: #f4f4fd;
+}
 
 .subscribe-form-container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .subscribe-form-container {
-    display: block;
     width: auto;
   }
 }
@@ -265,14 +255,14 @@
   border-radius: 4px;
   cursor: pointer;
 
+  background-color: #4d5ae5;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-
-  background-color: #4d5ae5;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
