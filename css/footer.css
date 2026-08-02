@@ -119,6 +119,13 @@
 .social-list-footer {
   display: flex;
   gap: 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .social-list-footer {
+    margin: 0;
+  }
 }
 
 .social-item-footer {
